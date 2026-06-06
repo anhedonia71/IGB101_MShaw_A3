@@ -1,0 +1,329 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Programs\Unity\2023.2.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52536
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
+F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24652] Host "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 557876635 [EditorId] 557876635 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IQ5BTU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24652] Host "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 557876635 [EditorId] 557876635 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IQ5BTU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.20f1 (0e25a174756c)
+[Subsystems] Discovering subsystems at path F:/Programs/Unity/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6029 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'F:/Programs/Unity/2023.2.20f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Programs/Unity/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Programs/Unity/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Programs/Unity/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006699 seconds.
+- Loaded All Assemblies, in  0.793 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (453ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.715 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 3611ms
+	BeginReloadAssembly (1836ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (712ms)
+		LoadAssemblies (640ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (254ms)
+			BuildScriptInfoCaches (39ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (900ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 90 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5139 unused Assets / (6.1 MB). Loaded Objects now: 5734.
+Memory consumption went from 140.5 MB to 134.4 MB.
+Total: 11.584600 ms (FindLiveObjects: 1.085700 ms CreateObjectMapping: 0.506200 ms MarkObjects: 6.114900 ms  DeleteObjects: 3.876100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39990.795080 seconds.
+  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_eat.anim
+  artifactKey: Guid(c75b7fa93e45ac0458f0dc318078cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_eat.anim using Guid(c75b7fa93e45ac0458f0dc318078cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be77f89be26f1344f54a3ba2bb5a4db4') in 0.0299511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.897841 seconds.
+  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_run.anim
+  artifactKey: Guid(b171e245a00eb384980c9a8aaafb259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_run.anim using Guid(b171e245a00eb384980c9a8aaafb259b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '507b6146ad7f6abe5cbebdadee138822') in 0.006324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.509753 seconds.
+  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_walk.anim
+  artifactKey: Guid(3535c491fc53d4949ab7afc8dc9ba534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_walk.anim using Guid(3535c491fc53d4949ab7afc8dc9ba534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95fae1c133d80bea650af9a3f98800a1') in 0.005797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.364262 seconds.
+  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes
+  artifactKey: Guid(fb9b6c1af93798348ab44c2ae706dcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes using Guid(fb9b6c1af93798348ab44c2ae706dcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b39c47aaf8ec9fa1dc35847494234ac7') in 0.0005422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060539 seconds.
+  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Pinguin_001.fbx
+  artifactKey: Guid(a2ef474392ac74f409c70c61ccb6c24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Pinguin_001.fbx using Guid(a2ef474392ac74f409c70c61ccb6c24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61dccb1c89a37ee5504f64d4e9b93135') in 0.1455884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.147005 seconds.
+  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Meshes/SM_083_Kettle_Lid.fbx
+  artifactKey: Guid(2c3974bdb2c24aa41b1896fbb5b0b211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Meshes/SM_083_Kettle_Lid.fbx using Guid(2c3974bdb2c24aa41b1896fbb5b0b211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d1d8b83778125ea008e61781a2f8ddd') in 0.3021796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-03.fbx
+  artifactKey: Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-03.fbx using Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e85cc85b778ecdff88dd04b54c94230') in 0.0457537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-06.fbx
+  artifactKey: Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-06.fbx using Guid(6e47fb2c4bc7154499c144b3e215870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773bd3a7b1922b5d4cc2fe25925ef635') in 0.0317355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx
+  artifactKey: Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-07.fbx using Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d03fbe058481f73490d5e5ed84c36fb') in 0.027907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-11.fbx
+  artifactKey: Guid(1fab21d8bb67e0b459ca60b8a9601342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-11.fbx using Guid(1fab21d8bb67e0b459ca60b8a9601342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccc8c599a763579187d03352a4257142') in 0.0265192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (7).prefab
+  artifactKey: Guid(bb2119431d358ce419859bfad1efe79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (7).prefab using Guid(bb2119431d358ce419859bfad1efe79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37ecf7d1cd20b502151c6f3c9bb02c15') in 0.1126042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-10.fbx
+  artifactKey: Guid(3e5c569b8600c4b438f9d72565bfd43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-10.fbx using Guid(3e5c569b8600c4b438f9d72565bfd43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '451bda8dd61dd65db9ed231d3ae993da') in 0.0265594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (4).prefab
+  artifactKey: Guid(7b9c6a300ca94e84aa580ff42a8b8292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (4).prefab using Guid(7b9c6a300ca94e84aa580ff42a8b8292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd44a21e7d49af2cb4631b21ddf2a8c5f') in 0.0026579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-08.fbx
+  artifactKey: Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Wood/Wall-Wood-Model-08.fbx using Guid(f3ed6584d1386d24684fd8330fa2057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e60a8b372662fe44dda119c191020407') in 0.027586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (9).prefab
+  artifactKey: Guid(05a0229e5b930744683bf9e247f3e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (9).prefab using Guid(05a0229e5b930744683bf9e247f3e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91f171c73ba1dff9c8e60bcfa95782a') in 0.0027313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-12.fbx
+  artifactKey: Guid(5c200c38000f07048916f11d852df3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/Wall-Stone-Model-12.fbx using Guid(5c200c38000f07048916f11d852df3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e7830bbc7835c5b73d2d50f631b6011') in 0.0269323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Prefabs/Prefabs/Structures/Wood_Corner_Pillars.prefab
+  artifactKey: Guid(e4e5850efa485014a917daedfdb38425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Prefabs/Structures/Wood_Corner_Pillars.prefab using Guid(e4e5850efa485014a917daedfdb38425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b493933515fb825bfd8cbad613c1fe6') in 0.0254401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 151
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab
+  artifactKey: Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (8).prefab using Guid(33a04dd4d2bfd7c43bc362d02404c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5babfe796bdc9cf0305e766c9a98131') in 0.0225855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (6).prefab
+  artifactKey: Guid(0cf29fb7b25f2454cafc193efc74659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models & Prefabs/Walls and Floors/Prefabs/Wood/Walls/Wall-Wood (6).prefab using Guid(0cf29fb7b25f2454cafc193efc74659c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ea5384f6fa5fdecc2e36a9121e7d0fa') in 0.0026999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
