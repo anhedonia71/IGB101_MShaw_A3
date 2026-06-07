@@ -277,8 +277,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\Changesets\ChangesetExplorerView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\AssetMenu\ProjectViewCloudDriveAssetMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\UI\GetWindowIfOpened.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\Locks\LocksTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\UVCSToolbar\PopupWindow\Operations\ControlledPopupOperations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\Locks\LocksTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\PendingChanges\ChangeCategoryTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\Branch\BranchesSelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\UI\Progress\ProgressControlsForDialogs.cs" />
@@ -299,9 +299,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\UI\DrawStaticElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\DateFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\Merge\Developer\MergeOptionsDialog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\CloudDrive\Workspaces\DirectoryContent\ItemsPosition.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\Views\Branch\BranchesViewMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\UI\Tree\PlasticTreeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\CloudDrive\Workspaces\DirectoryContent\ItemsPosition.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\WebApi\ErrorResponse.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\WebApi\SubscriptionDetailsResponse.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.11.4\Editor\CloudDrive\Workspaces\Tree\CloudWorkspacesTreeViewMenu.cs" />

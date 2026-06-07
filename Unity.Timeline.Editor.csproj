@@ -67,8 +67,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\inspectors\EditorClip.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\IPropertyKeyDataSource.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\TimelineWindow_Manipulators.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Actions\TrackAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\TimelineWindow_EditorCallbacks.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Actions\TrackAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\inspectors\FrameRateDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Utilities\Scopes\GUIColorOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Extensions\TrackExtensions.cs" />
@@ -128,11 +128,11 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\TimelineMarkerHeaderGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\Modes\TimelineAssetEditionMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Animation\AnimationTrackActions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Items\ItemsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\ItemGui\TimelineMarkerGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Actions\IAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Animation\CurvesProxy.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Window\Modes\TimelineReadOnlyMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\treeview\ItemGui\ISelectable.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.8.6\Editor\Signals\SignalManager.cs" />

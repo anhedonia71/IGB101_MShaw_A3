@@ -1,12 +1,53 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\Users\\Nyx\\QUT F Drive\\Year 4\\IGB101\\Assignment_3\\IGB101_MShaw_A3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1B79AD-BCD5-AF01-34FD-9170BC9B4E75}|Assembly-CSharp.csproj|f:\\users\\nyx\\qut f drive\\year 4\\igb101\\assignment_3\\igb101_mshaw_a3\\assets\\scripts\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1B79AD-BCD5-AF01-34FD-9170BC9B4E75}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB1B79AD-BCD5-AF01-34FD-9170BC9B4E75}|Assembly-CSharp.csproj|F:\\Users\\Nyx\\QUT F Drive\\Year 4\\IGB101\\Assignment_3\\IGB101_MShaw_A3\\assets\\models \u0026 prefabs\\models\\igb101_assets\\third person controller\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB1B79AD-BCD5-AF01-34FD-9170BC9B4E75}|Assembly-CSharp.csproj|solutionrelative:assets\\models \u0026 prefabs\\models\\igb101_assets\\third person controller\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelSwitch.cs",
+              "DocumentMoniker": "F:\\Users\\Nyx\\QUT F Drive\\Year 4\\IGB101\\Assignment_3\\IGB101_MShaw_A3\\Assets\\Scripts\\LevelSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSwitch.cs",
+              "ToolTip": "F:\\Users\\Nyx\\QUT F Drive\\Year 4\\IGB101\\Assignment_3\\IGB101_MShaw_A3\\Assets\\Scripts\\LevelSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSwitch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:32:35.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThirdPersonCamera.cs",
+              "DocumentMoniker": "F:\\Users\\Nyx\\QUT F Drive\\Year 4\\IGB101\\Assignment_3\\IGB101_MShaw_A3\\Assets\\Models \u0026 Prefabs\\Models\\IGB101_Assets\\Third Person Controller\\ThirdPersonCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Models \u0026 Prefabs\\Models\\IGB101_Assets\\Third Person Controller\\ThirdPersonCamera.cs",
+              "ToolTip": "F:\\Users\\Nyx\\QUT F Drive\\Year 4\\IGB101\\Assignment_3\\IGB101_MShaw_A3\\Assets\\Models \u0026 Prefabs\\Models\\IGB101_Assets\\Third Person Controller\\ThirdPersonCamera.cs",
+              "RelativeToolTip": "Assets\\Models \u0026 Prefabs\\Models\\IGB101_Assets\\Third Person Controller\\ThirdPersonCamera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:30:40.668Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

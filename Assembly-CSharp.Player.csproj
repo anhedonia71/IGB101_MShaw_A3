@@ -913,10 +913,6 @@
       <Project>{F97F9A55-E7EE-5C75-B92F-DE7BC58AC4C3}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{62B35BD8-E56C-4F4E-A8CC-0EA9FDA4E606}</Project>
-      <Name>UnityEngine.UI.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
       <Project>{5E69EA92-5413-020A-2D7F-E2B337AF4F99}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
@@ -924,6 +920,10 @@
     <ProjectReference Include="Unity.ProBuilder.Player.csproj">
       <Project>{12ACEF3A-6065-634B-AF2C-FED08CF1008C}</Project>
       <Name>Unity.ProBuilder.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{62B35BD8-E56C-4F4E-A8CC-0EA9FDA4E606}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{E2B3A791-B72A-472E-6E87-5BA20F10375E}</Project>

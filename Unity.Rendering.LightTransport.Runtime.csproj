@@ -68,8 +68,8 @@
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Hardware\HardwareRayTracingShader.cs" />
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Compute\RadeonRays\StringIDs.cs" />
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Compute\RadeonRays\HlbvhBuilder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Common\GeometryPool\GeometryPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\IRayTracingShader.cs" />
+    <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Common\GeometryPool\GeometryPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Compute\RadeonRays\RestructureBvh.cs" />
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Common\Utilities\BlockAllocator.cs" />
     <Compile Include="Library\PackageCache\com.unity.rendering.light-transport@1.0.2\Runtime\UnifiedRayTracing\Common\Utilities\GraphicsHelpers.cs" />

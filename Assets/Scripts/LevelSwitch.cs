@@ -9,9 +9,8 @@ public class LevelSwitch : MonoBehaviour{
     public string nextLevel;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        gameManager = GameObject.FindGameObjectsWithTag("gameManager").GetComponent<GameManager>();
+    void Start(){
+        gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame

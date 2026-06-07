@@ -64,8 +64,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Volume\VolumeComponent.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Lights\LightAnchor.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\RenderGraph\RenderGraphResources.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Common\ListBuffer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\RenderPipeline\RenderPipelineGlobalSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Common\ListBuffer.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\RenderGraph\Compiler\FixedAttachmentArray.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Stripping\IStripper.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerGroup.cs" />
@@ -161,8 +161,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Lighting\ProbeVolume\ProbeBrickIndex.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Debugging\DebugOverlay.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\RenderGraph\RenderGraphPassType.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Utilities\Blitter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Debugging\DebugDisplaySettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Utilities\Blitter.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Utilities\CameraCaptureBridge.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Debugging\DebugDisplaySettingsUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Common\Swap.Extensions.cs" />
@@ -243,8 +243,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Utilities\CoreUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Common\ComponentSingleton.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Debugging\DebugShapes.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Common\RemoveRange.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Stripping\RenderPipelineGraphicsSettingsStripperFetcher.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Common\RemoveRange.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\RenderGraph\Compiler\PassesData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Debugging\DebugUI.Panel.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@16.0.6\Runtime\Camera\CameraSwitcher.cs" />
