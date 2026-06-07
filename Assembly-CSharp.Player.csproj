@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{72A0B4BE-6250-567E-A666-803A41C46C75}</ProjectGuid>
+    <ProjectGuid>{59B4D8CB-E62A-3CA5-0DBC-B46C1B0BF381}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,10 +61,15 @@
     <Analyzer Include="F:\Programs\Unity\2023.2.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\LevelSwitch.cs" />
     <Compile Include="Assets\Models &amp; Prefabs\Models\Downloaded_Assets\ithappy\Animals_FREE\Scripts\CreatureMover.cs" />
+    <Compile Include="Assets\Models &amp; Prefabs\Models\IGB101_Assets\Third Person Controller\PlayerMovement.cs" />
+    <Compile Include="Assets\Models &amp; Prefabs\Models\IGB101_Assets\Third Person Controller\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Skybox\QMS - Cartoon Skybox Pack FREE\Scripts\QMSSkyboxFREE.cs" />
     <Compile Include="Assets\Models &amp; Prefabs\Models\Downloaded_Assets\ithappy\Animals_FREE\Scripts\PlayerCamera.cs" />
+    <Compile Include="Assets\Scripts\Pickup.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Models &amp; Prefabs\Models\Downloaded_Assets\ithappy\Animals_FREE\Scripts\MovePlayerInput.cs" />
     <Compile Include="Assets\Models &amp; Prefabs\Models\Downloaded_Assets\ithappy\Animals_FREE\Scripts\ThirdPersonCamera.cs" />
   </ItemGroup>
@@ -889,63 +894,67 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{789C0C33-A615-06C7-143C-EE35557F9F86}</Project>
+      <Project>{B699F9E5-9930-1951-1AB6-7E4E6D1B3EC0}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{CD50802B-B2B4-6C1E-7DE4-4DB4D74C402E}</Project>
+      <Project>{C3DE7A15-4A11-BEF7-3E4E-1A8E2182E479}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.Player.csproj">
-      <Project>{7BC59C0C-E8C0-EF0A-C8F6-7564E9719171}</Project>
+      <Project>{78ACB297-2F4E-8182-6B74-A43856301F09}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Shared.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{76CE2D30-F611-7556-B559-0D2D006DF601}</Project>
+      <Project>{78208547-F996-CD5D-AA8C-F2ABBA9A7336}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Player.csproj">
-      <Project>{CBF0673C-0F69-FADF-B5B5-CF80C98B6E98}</Project>
+      <Project>{F97F9A55-E7EE-5C75-B92F-DE7BC58AC4C3}</Project>
       <Name>Unity.Mathematics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{F07BFC8E-9B55-EEA0-45B0-B88ACA032DCC}</Project>
+      <Project>{62B35BD8-E56C-4F4E-A8CC-0EA9FDA4E606}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.Player.csproj">
-      <Project>{8F0942AD-6170-DFF8-4F98-8C8865C6194C}</Project>
+      <Project>{5E69EA92-5413-020A-2D7F-E2B337AF4F99}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Player.csproj">
+      <Project>{12ACEF3A-6065-634B-AF2C-FED08CF1008C}</Project>
+      <Name>Unity.ProBuilder.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{89BBBDE0-2BC6-B224-BCA0-FFAA5897874F}</Project>
+      <Project>{E2B3A791-B72A-472E-6E87-5BA20F10375E}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.Player.csproj">
-      <Project>{0E0097E8-5767-9A1D-7A03-AA3B0181E339}</Project>
+      <Project>{5DC233C4-737A-0EE5-02E1-C6D5F995705D}</Project>
       <Name>Unity.Postprocessing.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Collections.Player.csproj">
-      <Project>{71D7B81F-D452-C63E-8418-5CDEA4A6FAE9}</Project>
+      <Project>{52B4E4B6-293B-1676-EB9D-FF1FA8E0F95D}</Project>
       <Name>Unity.Collections.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Player.csproj">
-      <Project>{34B19841-E197-8FE9-9BF5-21373519E2EB}</Project>
+      <Project>{2D5CFE5E-319D-B7F8-BCF8-E006EF4B4CC9}</Project>
       <Name>Unity.Burst.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{40864990-0352-9D9C-12A9-3DEA1633F974}</Project>
+      <Project>{99BDE6F8-3D7E-E5D2-B1C1-C2B66BB41B6F}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{70EC244D-738E-A1D9-136C-2F7BF4762E1C}</Project>
+      <Project>{C2AE155F-18E4-8CB0-14AB-7E1381254003}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rendering.LightTransport.Runtime.Player.csproj">
-      <Project>{EB67D63B-3518-C163-0BBF-65F354861922}</Project>
+      <Project>{FCA9E5F0-0455-9DC2-A32C-87EA19FBD09C}</Project>
       <Name>Unity.Rendering.LightTransport.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{2EE1F595-5B23-8248-D01A-5C9FF894D5F9}</Project>
+      <Project>{26E2DBA1-F35C-0B0F-80A7-75459BD659D8}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
   </ItemGroup>

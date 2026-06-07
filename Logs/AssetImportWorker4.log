@@ -11,19 +11,19 @@ F:\Programs\Unity\2023.2.20f1\Editor\Unity.exe
 -name
 AssetImportWorker4
 -projectPath
-F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
+F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3/IGB101_MShaw_A3
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-52536
+60800
 -job-worker-count
 5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
-F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
+Successfully changed project path to: F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3/IGB101_MShaw_A3
+F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3/IGB101_MShaw_A3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,16 +58,16 @@ F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5176] Host "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 2145373528 [EditorId] 2145373528 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IQ5BTU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [5176] Host "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 2145373528 [EditorId] 2145373528 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IQ5BTU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21328] Host "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 1802019328 [EditorId] 1802019328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IQ5BTU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21328] Host "[IP] 192.168.0.45 [Port] 0 [Flags] 2 [Guid] 1802019328 [EditorId] 1802019328 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IQ5BTU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.20f1 (0e25a174756c)
 [Subsystems] Discovering subsystems at path F:/Programs/Unity/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3/Assets
+[Subsystems] Discovering subsystems at path F:/Users/Nyx/QUT F Drive/Year 4/IGB101/Assignment_3/IGB101_MShaw_A3/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -79,43 +79,43 @@ Initialize mono
 Mono path[0] = 'F:/Programs/Unity/2023.2.20f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Programs/Unity/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Programs/Unity/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Programs/Unity/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004499 seconds.
-- Loaded All Assemblies, in  0.595 seconds
+Registered in 0.004317 seconds.
+- Loaded All Assemblies, in  0.720 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.423 seconds
-Domain Reload Profiling: 1017ms
-	BeginReloadAssembly (226ms)
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (218ms)
-		LoadAssemblies (225ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (275ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (195ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (265ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (423ms)
+	FinalizeReload (558ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (350ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (260ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,1122 +124,54 @@ Domain Reload Profiling: 1017ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.420 seconds
+Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\IGB101_MShaw_A3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\IGB101_MShaw_A3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.898 seconds
 Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.890 seconds
-Domain Reload Profiling: 2307ms
-	BeginReloadAssembly (608ms)
+- Finished resetting the current domain, in  0.966 seconds
+Domain Reload Profiling: 3862ms
+	BeginReloadAssembly (1876ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (686ms)
-		LoadAssemblies (531ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (294ms)
-				TypeCache.ScanAssembly (276ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (890ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (615ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (492ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 90 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5139 unused Assets / (6.2 MB). Loaded Objects now: 5734.
-Memory consumption went from 140.6 MB to 134.4 MB.
-Total: 8.647000 ms (FindLiveObjects: 0.708400 ms CreateObjectMapping: 0.279800 ms MarkObjects: 5.065800 ms  DeleteObjects: 2.592200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 40324.918424 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer_001.fbx
-  artifactKey: Guid(f612768321ebc364fa742fa8bbfadb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer_001.fbx using Guid(f612768321ebc364fa742fa8bbfadb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f291a882735e2c875f2a71b1e8ce577c') in 0.1965044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.824144 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer_001 1.fbx
-  artifactKey: Guid(bd9a1a415f321f9478aea70e99748624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer_001 1.fbx using Guid(bd9a1a415f321f9478aea70e99748624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e9b1394a4820cdd14aa3558f94cf8f1') in 0.0384956 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.165091 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer.fbx
-  artifactKey: Guid(bd9a1a415f321f9478aea70e99748624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer.fbx using Guid(bd9a1a415f321f9478aea70e99748624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25aab211d977cca67e75bc153308b720') in 0.0297451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.801553 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer.fbx
-  artifactKey: Guid(bd9a1a415f321f9478aea70e99748624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Deer.fbx using Guid(bd9a1a415f321f9478aea70e99748624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4d77ed204e1ed19e094649905a8dea6') in 0.0363788 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.994 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.887 seconds
-Domain Reload Profiling: 1880ms
-	BeginReloadAssembly (306ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (578ms)
-		LoadAssemblies (529ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (236ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (218ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (887ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (599ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.4 MB). Loaded Objects now: 5748.
-Memory consumption went from 139.8 MB to 133.4 MB.
-Total: 9.071200 ms (FindLiveObjects: 0.731100 ms CreateObjectMapping: 0.283100 ms MarkObjects: 5.011000 ms  DeleteObjects: 3.044400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.978 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.909 seconds
-Domain Reload Profiling: 1885ms
-	BeginReloadAssembly (288ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (578ms)
-		LoadAssemblies (516ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (226ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (910ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (616ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.4 MB). Loaded Objects now: 5749.
-Memory consumption went from 141.8 MB to 135.4 MB.
-Total: 10.735900 ms (FindLiveObjects: 0.766300 ms CreateObjectMapping: 0.310800 ms MarkObjects: 5.870600 ms  DeleteObjects: 3.786400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 186.619820 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE
-  artifactKey: Guid(023da87b05e784a4d85c07040f0dcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE using Guid(023da87b05e784a4d85c07040f0dcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95500cd684b0bf463a144b573fa91cd5') in 0.0102051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.988094 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations
-  artifactKey: Guid(2c81363eb2dadca49b45334704683619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations using Guid(2c81363eb2dadca49b45334704683619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3ed3977a97927cf07406abdad6a33a3') in 0.0006695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.889598 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations
-  artifactKey: Guid(95d2cdeae373cdd469bd444bd1451393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Other_Animations using Guid(95d2cdeae373cdd469bd444bd1451393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d903e250c04e8ab116c2aca15c014da') in 0.0007314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.210412 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Animation_Controllers
-  artifactKey: Guid(1f05f83ed1ed1bb499231ceda83030ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Animation_Controllers using Guid(1f05f83ed1ed1bb499231ceda83030ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b598d56b1c3bfe614e6f07634fe7535') in 0.000588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.671456 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Deer.controller
-  artifactKey: Guid(23b5810cdc882b94a9994d786bc4c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Animations/Animation_Controllers/Deer.controller using Guid(23b5810cdc882b94a9994d786bc4c4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '835a024f984e616d992f2b014b13240f') in 0.0342575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 492.447067 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Horse_001 1.fbx
-  artifactKey: Guid(b1218042c2b5cc54ebd2a13b1515a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Horse_001 1.fbx using Guid(b1218042c2b5cc54ebd2a13b1515a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8017f8a1d564fcb51d0dae2b4ffc394') in 0.1568754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.316795 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Horse.fbx
-  artifactKey: Guid(b1218042c2b5cc54ebd2a13b1515a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Horse.fbx using Guid(b1218042c2b5cc54ebd2a13b1515a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95f8cfba55cafc8c1b157469ed7ee382') in 0.0337721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.824880 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Horse.fbx
-  artifactKey: Guid(b1218042c2b5cc54ebd2a13b1515a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Horse.fbx using Guid(b1218042c2b5cc54ebd2a13b1515a639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7953c19ea004af42840a5226b93e248a') in 0.0369225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 103
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.222 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.109 seconds
-Domain Reload Profiling: 2335ms
-	BeginReloadAssembly (398ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (98ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (697ms)
-		LoadAssemblies (661ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (262ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (236ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1110ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (644ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.1 MB). Loaded Objects now: 5750.
-Memory consumption went from 143.7 MB to 137.6 MB.
-Total: 10.446700 ms (FindLiveObjects: 0.930500 ms CreateObjectMapping: 0.356600 ms MarkObjects: 5.510300 ms  DeleteObjects: 3.647500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 184.249938 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Pinguin_001 1.fbx
-  artifactKey: Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Pinguin_001 1.fbx using Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e841935271fbbbae1e73f5bd1a836e89') in 0.1581093 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.164239 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin.fbx
-  artifactKey: Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin.fbx using Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e2cb7f84367699b7c7009e233d13956') in 0.0461448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.434796 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin.fbx
-  artifactKey: Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin.fbx using Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb634aa4e01f53916532def8ab41d80') in 0.030485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 1067.954609 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin.fbx
-  artifactKey: Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin.fbx using Guid(bd5c4935a9e5eb44dbae07c16216877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7874a72abd43931fe66abd51ad5d4114') in 0.0516586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.164 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.001 seconds
-Domain Reload Profiling: 2165ms
-	BeginReloadAssembly (345ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
+		CreateAndSetChildDomain (52ms)
 	RebuildCommonClasses (62ms)
 	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (688ms)
-		LoadAssemblies (617ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (871ms)
+		LoadAssemblies (815ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (255ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1002ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (277ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (967ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (685ms)
+		SetupLoadedEditorAssemblies (692ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (535ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.4 MB). Loaded Objects now: 5751.
-Memory consumption went from 145.7 MB to 139.4 MB.
-Total: 13.644700 ms (FindLiveObjects: 0.768600 ms CreateObjectMapping: 0.343500 ms MarkObjects: 8.171700 ms  DeleteObjects: 4.359400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 152.001280 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin 1.fbx
-  artifactKey: Guid(ed874ded9b0b68b43bd289872839882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin 1.fbx using Guid(ed874ded9b0b68b43bd289872839882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80e5689dcb9fbcbfef4d792f5c6ef4a9') in 0.1593823 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.590512 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_2.fbx
-  artifactKey: Guid(ed874ded9b0b68b43bd289872839882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_2.fbx using Guid(ed874ded9b0b68b43bd289872839882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6679bd117356807a5ba739eef90ccd80') in 0.0331068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.431137 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_2.fbx
-  artifactKey: Guid(ed874ded9b0b68b43bd289872839882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_2.fbx using Guid(ed874ded9b0b68b43bd289872839882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1d023944448da1d5cb9c2418ed370ab') in 0.0312108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.048 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.989 seconds
-Domain Reload Profiling: 2038ms
-	BeginReloadAssembly (319ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (608ms)
-		LoadAssemblies (541ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (241ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (989ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (673ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (517ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.7 MB). Loaded Objects now: 5752.
-Memory consumption went from 147.7 MB to 141.0 MB.
-Total: 11.813900 ms (FindLiveObjects: 0.742000 ms CreateObjectMapping: 0.308300 ms MarkObjects: 6.707600 ms  DeleteObjects: 4.054200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 92.707990 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin 1.fbx
-  artifactKey: Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin 1.fbx using Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f0ea076f8fdd696c902fe309cdeadab') in 0.1657976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.870985 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3.fbx
-  artifactKey: Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3.fbx using Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89263841e31292b72207296c4f8e711c') in 0.0338196 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.434302 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3.fbx
-  artifactKey: Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3.fbx using Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b93dbaaabd035bd17361359a7379f2d') in 0.0380287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.822747 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3.fbx
-  artifactKey: Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3.fbx using Guid(cae079ec20cf6f54e8ea4fb0faf1ae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c433a945888494ea2b500da501cc1df8') in 0.0349985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.652828 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3 1.fbx
-  artifactKey: Guid(deaac14a04105e940904b61b101dbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_3 1.fbx using Guid(deaac14a04105e940904b61b101dbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ed31a172a2fb7e88cdbc0ff742fa8f5') in 0.0303225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.780134 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_4.fbx
-  artifactKey: Guid(deaac14a04105e940904b61b101dbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_4.fbx using Guid(deaac14a04105e940904b61b101dbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70e95357fa2b2fa1fda445d6a823c53e') in 0.0319462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.821759 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_4.fbx
-  artifactKey: Guid(deaac14a04105e940904b61b101dbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_4.fbx using Guid(deaac14a04105e940904b61b101dbabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bcecc373c370b44b9eada194f0f503e') in 0.0309134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.135977 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_4 1.fbx
-  artifactKey: Guid(1e8f94e711349374ba30e4e6b4829727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_4 1.fbx using Guid(1e8f94e711349374ba30e4e6b4829727) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5bbc7346a4a742a5e57deaf224f42d1') in 0.0320122 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.817006 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_5.fbx
-  artifactKey: Guid(1e8f94e711349374ba30e4e6b4829727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_5.fbx using Guid(1e8f94e711349374ba30e4e6b4829727) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5577fb28bc6d654ad8e26d66e0c6e4e9') in 0.0352993 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.469906 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_5.fbx
-  artifactKey: Guid(1e8f94e711349374ba30e4e6b4829727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Penguin_5.fbx using Guid(1e8f94e711349374ba30e4e6b4829727) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da7f7d19c6367469b7c8d63b43c7a89f') in 0.0323071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.054 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.951 seconds
-Domain Reload Profiling: 2006ms
-	BeginReloadAssembly (335ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (602ms)
-		LoadAssemblies (546ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (232ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (952ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (640ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (512ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.1 MB). Loaded Objects now: 5753.
-Memory consumption went from 149.6 MB to 143.5 MB.
-Total: 13.596500 ms (FindLiveObjects: 1.279900 ms CreateObjectMapping: 1.191800 ms MarkObjects: 6.378900 ms  DeleteObjects: 4.743600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Users\Nyx\QUT F Drive\Year 4\IGB101\Assignment_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.044 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.927 seconds
-Domain Reload Profiling: 1970ms
-	BeginReloadAssembly (305ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (617ms)
-		LoadAssemblies (543ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (266ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (247ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (928ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (630ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (497ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5137 unused Assets / (6.5 MB). Loaded Objects now: 5754.
-Memory consumption went from 151.5 MB to 145.1 MB.
-Total: 14.188700 ms (FindLiveObjects: 1.199400 ms CreateObjectMapping: 0.556100 ms MarkObjects: 7.949800 ms  DeleteObjects: 4.481700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 195.543575 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs
-  artifactKey: Guid(ad5150cde97f0f44585577eccbc61626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs using Guid(ad5150cde97f0f44585577eccbc61626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '442332209ada7ddfbf1effe64ac613fb') in 0.0104463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033213 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Deer_001.prefab
-  artifactKey: Guid(4ecab060b0afb5d4db61f7f1311b9e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Deer_001.prefab using Guid(4ecab060b0afb5d4db61f7f1311b9e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21972da9830f32266ad5a77469628bbb') in 0.1257788 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 92
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Pinguin_001.prefab
-  artifactKey: Guid(66f01a8db88f9644baed659d1f91cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Pinguin_001.prefab using Guid(66f01a8db88f9644baed659d1f91cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4a100f87970e9a64e08fdccbde78be2') in 0.0315082 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab
-  artifactKey: Guid(8741cd6c8b9fc3947999191d0c381f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab using Guid(8741cd6c8b9fc3947999191d0c381f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ace76d443c852a051ef2e6523c546f2') in 0.0277848 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.938675 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials
-  artifactKey: Guid(ea11a9243f255234a80fbf4826cd4089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials using Guid(ea11a9243f255234a80fbf4826cd4089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e658fa2b3252857ef98edc95adc2014') in 0.0006979 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.996350 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx
-  artifactKey: Guid(09fdd7bc830a8c14ba72b3e690f8b6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx using Guid(09fdd7bc830a8c14ba72b3e690f8b6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '400db18d8fede5f517eda3e8481640c0') in 0.0511767 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.229858 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx
-  artifactKey: Guid(03e5ca14225560348966b1b3784225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx using Guid(03e5ca14225560348966b1b3784225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73909322ebc6d91276974caf6946cacb') in 0.0326267 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.588353 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx
-  artifactKey: Guid(8739604ff156c91408e3f6352de03dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx using Guid(8739604ff156c91408e3f6352de03dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e1f3910eeaa7e7d160aa8d6c795b66f') in 0.0313016 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.085688 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Textures/Texture.png
-  artifactKey: Guid(5bf4d5ffdfd914a48be4d1bf61c86666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Textures/Texture.png using Guid(5bf4d5ffdfd914a48be4d1bf61c86666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b1a0ae7b9e044aa73cd9548f2fbec3c') in 0.0373489 seconds
-Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.568972 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Floor.mat
-  artifactKey: Guid(a42d0a41996709f4481bb3916527363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Floor.mat using Guid(a42d0a41996709f4481bb3916527363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21cab8b913b8b445ae7b1445cf9f8791') in 0.049198 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Material Variant Variant.mat
-  artifactKey: Guid(7d40ffe4f81b312468a2d49d10682cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Material Variant Variant.mat using Guid(7d40ffe4f81b312468a2d49d10682cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c78638b41fb973a7c61ccd097d26dc3') in 0.020812 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.683871 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Material 1.mat
-  artifactKey: Guid(0726c1f9e84aa804591f73689409fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Material 1.mat using Guid(0726c1f9e84aa804591f73689409fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b33f57cc255cdaefb7f2571aee093b7') in 0.0161946 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.910480 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Tig.mat
-  artifactKey: Guid(0726c1f9e84aa804591f73689409fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Tig.mat using Guid(0726c1f9e84aa804591f73689409fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3542fd607722f950468530534a003bc') in 0.0178797 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.129547 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Tiger_3.mat
-  artifactKey: Guid(0726c1f9e84aa804591f73689409fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Tiger_3.mat using Guid(0726c1f9e84aa804591f73689409fddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ab18319af0b0e4a277a79ccef6c8e03') in 0.0169567 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.439980 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Material 1.mat
-  artifactKey: Guid(2cc434ded15484344bd7aa23888224c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Materials/Material 1.mat using Guid(2cc434ded15484344bd7aa23888224c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b84ab168d1028b2ed53b298a79faa14') in 0.018436 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.107777 seconds.
-  path: Assets/Materials and Textures/Downloaded/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat
-  artifactKey: Guid(c292d8b53c67f6940931191518ce7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials and Textures/Downloaded/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat using Guid(c292d8b53c67f6940931191518ce7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5584182643db5f68b808b5c348e58632') in 0.3806251 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/T_Wall_N.mat
-  artifactKey: Guid(b79150b9573e3db42aa0bc5359f721ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/T_Wall_N.mat using Guid(b79150b9573e3db42aa0bc5359f721ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '100e55bde3dcd55718ea3bc4e9f87304') in 0.0228288 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-03.mat
-  artifactKey: Guid(f38051be6a8ad8f4fb93e30ac60ba245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-03.mat using Guid(f38051be6a8ad8f4fb93e30ac60ba245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f20cde334bbee8630214b0d6fa24b6c0') in 0.0250681 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/T_Wall_C.mat
-  artifactKey: Guid(031e04691d7c80a49b5f28d714b5afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/T_Wall_C.mat using Guid(031e04691d7c80a49b5f28d714b5afe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db7640d5efa1cad78883cdf695d9d556') in 0.0366708 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Materials and Textures/Platform(Seemless_rock)/workshop_rock_material Variant.mat
-  artifactKey: Guid(ffc5e2fb238c76e489e8fcf8663721d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials and Textures/Platform(Seemless_rock)/workshop_rock_material Variant.mat using Guid(ffc5e2fb238c76e489e8fcf8663721d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f8d3601ac97f30ba633adb99f90f3ac') in 0.0274204 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-08.mat
-  artifactKey: Guid(d709285a8e45fcb44b3d0b8e0eb893ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-08.mat using Guid(d709285a8e45fcb44b3d0b8e0eb893ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1942cc3d312a296a91715084f0e557a5') in 0.0231577 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
-  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b4a1775ef0ee81f6e99ece2b5f4fdc9') in 0.0112774 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-06.mat
-  artifactKey: Guid(b97ac9058d8efce46a1ce11971dd49bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-06.mat using Guid(b97ac9058d8efce46a1ce11971dd49bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ec703cd9115dff1c125be57d7385f2e') in 0.0188704 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/OlegWER/SkeletonsFreeSet/Materials/Mi_02.mat
-  artifactKey: Guid(80f18843f78b8034eac18e20a3247fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/OlegWER/SkeletonsFreeSet/Materials/Mi_02.mat using Guid(80f18843f78b8034eac18e20a3247fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35c625cb98495c402e132487ba04d365') in 0.0308659 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.mat
-  artifactKey: Guid(b2f7b06625d016645882d7041377502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-06.mat using Guid(b2f7b06625d016645882d7041377502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ab6b2e5919d1b27b626c7edf31e424') in 0.0246654 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-05.mat
-  artifactKey: Guid(30f7732f3ee57554eb7ef25694ac7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-05.mat using Guid(30f7732f3ee57554eb7ef25694ac7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877e55533edb3addb48abbe88cb6de67') in 0.0190962 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.mat
-  artifactKey: Guid(5d66cb4cf0d5ab54e8364c3f49894d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-04.mat using Guid(5d66cb4cf0d5ab54e8364c3f49894d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edcd5ba3bd51177c68591461ea36dca2') in 0.0229206 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Materials and Textures/Objects/wheel_texture.mat
-  artifactKey: Guid(02b6ddc4b3498fe438cf7dd690dd5cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials and Textures/Objects/wheel_texture.mat using Guid(02b6ddc4b3498fe438cf7dd690dd5cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7296b675b0c6c361034995ec32ca39e') in 0.0283898 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
-  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cca0be7197f24cf24f8417b6db0f6d8') in 0.0124545 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-08.mat
-  artifactKey: Guid(531ebf51a45f06748a01c51246b63597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-08.mat using Guid(531ebf51a45f06748a01c51246b63597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e78d537ea474053fcf6a449e08913136') in 0.0299423 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-11.mat
-  artifactKey: Guid(e218649290d1ee045ab720f9506ae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-11.mat using Guid(e218649290d1ee045ab720f9506ae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61082ee6ec7c4f48b76be2325d362e16') in 0.0253498 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.mat
-  artifactKey: Guid(2a14c57a69e73d74d86c75e7fe903485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Stone/materials/Wall-Stone-Model-01.mat using Guid(2a14c57a69e73d74d86c75e7fe903485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac5cfd47ef4a30b195f77e5c518a16a') in 0.021211 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Materials and Textures/Objects/sign_body.mat
-  artifactKey: Guid(9b14ee1d361b31c4b91ba3fc024576b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials and Textures/Objects/sign_body.mat using Guid(9b14ee1d361b31c4b91ba3fc024576b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62f082ad57ef150aa0f4df1683dd0a08') in 0.0273447 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-12.mat
-  artifactKey: Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Walls and Floors/Models/Wood/materials/Wall-Wood-Model-12.mat using Guid(db22b3bd37f6220479b2d443a523f0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e92153ab8f160dbe84fba7cd6a712e03') in 0.0232031 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.183281 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Greek Statue/Materials/GreekStatue_LOD0.mat
-  artifactKey: Guid(ab0dd7891947e1549bee08bafe1661cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Greek Statue/Materials/GreekStatue_LOD0.mat using Guid(ab0dd7891947e1549bee08bafe1661cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c53709f7be5fa11dc312384cc33abde2') in 0.0541868 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_083_Kettle_Lid.mat
-  artifactKey: Guid(abc00000000005485694283853308056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_083_Kettle_Lid.mat using Guid(abc00000000005485694283853308056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea29f8d0b131e145645587bb8cfcfda3') in 0.0339354 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/M_Tile.mat
-  artifactKey: Guid(6fea00e2bb949774490a2196bed36fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/M_Tile.mat using Guid(6fea00e2bb949774490a2196bed36fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a4c4881a75a62a5c93bfde1ccac818e') in 0.029774 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65160624ebc170383c2b484a93519f32') in 0.072466 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_009_Statue_of_the_Buddha.mat
-  artifactKey: Guid(abc00000000005966814309214002593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_009_Statue_of_the_Buddha.mat using Guid(abc00000000005966814309214002593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1a1ed7097e8a5ce69d1295ba45c6591') in 0.0349412 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/M_Torch.mat
-  artifactKey: Guid(4a3d9880a21ecb347a3ba5e4bab98af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/DungeonModularPack/Materials/M_Torch.mat using Guid(4a3d9880a21ecb347a3ba5e4bab98af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c503eb8bb4de2689a8822b55dc07127b') in 0.0234144 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_039_Pot.mat
-  artifactKey: Guid(abc00000000018409677871042973317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_039_Pot.mat using Guid(abc00000000018409677871042973317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01975c0b96b2e2e07e5b792ebaa59092') in 0.0391585 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f3cabf225609657ed17a5c4f925556') in 0.0422468 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_011_Statue_of_the_Buddha_001.mat
-  artifactKey: Guid(abc00000000010691573849062964113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_011_Statue_of_the_Buddha_001.mat using Guid(abc00000000010691573849062964113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0092a1d569d94268b2929b8a8f1e5b15') in 0.0376372 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_067_Kettle.mat
-  artifactKey: Guid(abc00000000007827593080103238453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/Korea_TreasureProps/Materials/M_067_Kettle.mat using Guid(abc00000000007827593080103238453) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '393e813fa228676446e4c683339b7b39') in 0.0421298 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038217 seconds.
-  path: Assets/Materials and Textures/Downloaded/Checker_Tile/check_tile_floor.mat
-  artifactKey: Guid(174f40f9bb0ae6749b300bce9dcca01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials and Textures/Downloaded/Checker_Tile/check_tile_floor.mat using Guid(174f40f9bb0ae6749b300bce9dcca01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb2251daab082a49a9989b7cdb35f8bd') in 0.0299597 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.604456 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab
-  artifactKey: Guid(8741cd6c8b9fc3947999191d0c381f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab using Guid(8741cd6c8b9fc3947999191d0c381f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae766380c6856ee280d58295152c9269') in 0.0138277 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
-
-========================================================================
-Received Import Request.
-  Time since last request: 653.575754 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab
-  artifactKey: Guid(8741cd6c8b9fc3947999191d0c381f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab using Guid(8741cd6c8b9fc3947999191d0c381f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007573d7ea3d08e6c52b0e6fe7ed8974') in 0.0225818 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.299384 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx
-  artifactKey: Guid(03e5ca14225560348966b1b3784225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx using Guid(03e5ca14225560348966b1b3784225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6510315b4249b7f973a5e63f6bba9050') in 0.0341665 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
-
-========================================================================
-Received Import Request.
-  Time since last request: 419.594218 seconds.
-  path: Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx
-  artifactKey: Guid(03e5ca14225560348966b1b3784225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models & Prefabs/Models/Downloaded_Assets/ithappy/Animals_FREE/Meshes/Tiger_001 1.fbx using Guid(03e5ca14225560348966b1b3784225af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fba92ef14a61cf0e8a81ed2405112d2') in 0.030602 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
-
+Unloading 90 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5141 unused Assets / (6.2 MB). Loaded Objects now: 5736.
+Memory consumption went from 140.5 MB to 134.3 MB.
+Total: 11.215800 ms (FindLiveObjects: 0.899800 ms CreateObjectMapping: 0.442000 ms MarkObjects: 6.433600 ms  DeleteObjects: 3.439000 ms)
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
